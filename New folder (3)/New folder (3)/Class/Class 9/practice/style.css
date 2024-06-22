@@ -1,0 +1,90 @@
+body {
+		margin: 0;
+}
+.head {
+	background: #3B5998;
+	padding: 10px 0;
+	font-family: tahoma;
+	font-size: 12px;
+}
+.content {
+	width: 90%;
+	margin: auto;
+}
+.logo {
+	width: 30%;
+	float:left;
+}
+.login {
+	width: 70%;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+.login input {
+	display: block;
+	margin: 5px 0 4px;
+	border: 1px solid #1D2A5B;
+	padding: 2px;
+}
+form {
+	float: right;
+}
+.login label {
+	color: #FFFFFF;
+	font-size: 12px;
+	display: block;
+	cursor: pointer;
+}
+.head .login a {
+	color: #8CACC3;
+	font-size: 12px;
+	text-decoration: none;
+}
+.login input[type="checkbox"] {
+	float: left;
+	padding-left: 0;
+}
+.login .username {
+	float: left;
+	margin: 10px 10px;
+}
+.login .password {
+	overflow: hidden;
+	float: left;
+	margin: 10px 10px;
+}
+.login .submit {
+	overflow: hidden;
+	margin: 10px 10px;
+}
+.username label:last-child {
+	color: #9CB4D8;
+	margin-top: 3px;
+	display: inline-block;
+	margin-left: 3px;
+}
+.head .login a:hover {
+	text-decoration: none;
+}
+.submit input[type="submit"] {
+	background-color: #5A74A8;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin: 20px 0;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 786 ) {
+	.head .content .logo {
+		float: none;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+}

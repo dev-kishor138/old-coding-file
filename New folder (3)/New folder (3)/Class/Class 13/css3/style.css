@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	background-color: #87C8EC;
+}
+
+.a {
+	height: 500px;
+}
+.b {
+	background-color: red;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.d {
+	background-color: #5f27cd;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.f {
+	background-color: #10ac84;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+}
+.c {
+	background-color: green;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}

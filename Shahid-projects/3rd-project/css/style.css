@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "EB Garamond", serif;
+  text-decoration: none;
+}
+
+.my-button-color {
+  background: #b68c5a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.my-button-color:hover {
+  color: #fff;
+}
+.banner-section {
+  position: relative;
+  height: 550px;
+  background: url("../images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 100;
+}
+.banner-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1;
+}
+.banner-section h1 {
+  font-weight: 800;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+}
+.banner-section p {
+  text-align: center;
+  color: #e7e7e7;
+  z-index: 100;
+}
+.banner-search {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  gap: 20px;
+  z-index: 100;
+}
+
+.banner-search input {
+  width: 70%;
+  height: 64px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}
+
+.search-button {
+  width: 20%;
+  font-size: 20px;
+}
+
+.section-heading {
+  position: relative;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.section-heading h3 {
+  font-weight: 800;
+  font-size: 40px;
+  color: #414040;
+}
+.section-heading p {
+  font-family: "Poppins";
+  color: #707070;
+}
+.card {
+  height: 499px;
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card .my-card-img {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+.card .my-card-img img {
+  height: 100%;
+  width: 100%;
+}
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+.carousel {
+  position: relative;
+  height: 500px;
+}
+.carousel .carousel-inner {
+  position: relative;
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item {
+  position: relative;
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item > img {
+  position: relative;
+  height: 100%;
+}
+.carousel .carousel-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1;
+}
+.carousel-caption {
+  z-index: 100;
+  top: 15%;
+}
+.carousel-caption img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.carousel-caption h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+.carousel-caption h3 span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.carousel-caption p {
+  color: #f3f3f3;
+}
+footer {
+  background: #111111;
+  color: #fff;
+  padding: 100px 0;
+}
+footer .link {
+  position: relative;
+  display: grid;
+  gap: 5px;
+}
+footer .link a {
+  text-decoration: none;
+  color: #fff;
+}
+.subscribe {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe input {
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.subscribe button {
+  width: 20%;
+  padding: 5px 10px;
+}

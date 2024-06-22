@@ -1,0 +1,115 @@
+.kishor{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    animation-name: kishor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes kishor {
+    0% {
+        background-color: blue;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background-color: aqua;
+        top: 0;
+        left: 200px;
+    }
+    50% {
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}
+.soikot{
+    margin-top: 200px;
+}
+.me{
+    filter: blur(2px);
+}
+.you{
+    filter: brightness(150%);
+}
+.we{
+    filter: contrast(300%)
+}
+.them{
+    filter:grayscale(100%)
+}
+.i{
+    filter: opacity(50%)
+}
+.he{
+    filter: saturate(5)
+}
+.she {
+    filter: sepia(100%)
+}
+.her{
+    filter: drop-shadow(5px 10px 10px red)
+}
+*{
+    box-sizing: border-box;
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    border: 2px solid green;
+}
+.box2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    padding: 20px;
+}
+.box3{
+    border: 2px solid blue;
+    width: 200px;
+    padding: 40px 0;
+}
+.box3 input{
+    width: 100%
+}
+
+
+.f{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.d{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+.q{
+    grid-column-start: 1;
+    grid-column-end: 5
+}
+.w{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.e{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

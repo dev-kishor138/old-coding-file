@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+}
+
+.top-left {
+	height: 600px;
+	width: 50%;
+	float: left;
+}
+.top-left-left {
+	width: 70%;
+	height: 600px;
+	float: left;
+}
+.top-left-left-top {
+	background: black;
+	height: 60%;
+	width: 100%;
+}
+.top-left-left-bottom {
+	height: 40%;
+	width: 100%;
+	background:green;
+}
+.top-left-right {
+	width: 30%;
+	height: 600px;
+	overflow: hidden;
+}
+.top-left-right-top {
+	width: 100%;
+	height: 50%;
+	background: #2c2c54;
+}
+.top-left-right-bottom {
+	width: 100%;
+	height: 50%;
+	background: #aaa69d;
+}
+.top-right {
+	height: 600px;
+	width: 50%;
+	overflow: hidden;
+}
+.top-right-top {
+	width: 100%;
+	height: 55%;
+}
+.top-right-top-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.top-right-top-left-top {
+	height: 40%;
+	width: 100%;
+	background: red;
+}
+.top-right-top-left-bottom {
+	background: #546de5;
+	height: 60%;
+	width: 100%;
+}
+.top-right-top-right {
+	width: 50%;
+	height: 100%;
+	background: orange;
+	overflow: hidden;
+}
+
+.top-right-bottom {
+	width: 100%;
+	height: 45%;
+	background: blue;
+}
+.bottom-left {
+	width: 50%;
+	height: 200px;
+	background: yellow;
+	float: left;
+}
+.bottom-right {
+	width: 50%;
+	height: 200px;
+	background: violet;
+	overflow: hidden;
+}

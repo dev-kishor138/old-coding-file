@@ -1,0 +1,66 @@
+
+body {
+	background-image: url("img/download.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.a {
+	color: grey;
+	background-color: white;
+}
+div {
+	background-color: red;
+}
+.first {
+	opacity: 0.1;
+}
+.second {
+	opacity: 0.3;
+}
+.third {
+	opacity: 0.6;
+}
+.dotted {
+	border: dotted 5px red;
+}
+.dashed {
+	border-style: dashed;
+	border-width: medium;
+	border-color: green;
+}
+.solid {
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	border-radius: 5px;
+}
+.double {
+	border-top: 5px solid yellow;
+	background-color: red;
+}
+.groove {
+	border-style: groove;
+	border-color: orange;
+	
+}
+.ridge {
+	border-style: ridge;
+	border-color: grey;
+}
+.inset {
+	border: 5px inset red;
+}
+.outset {
+	border-style: outset;
+}
+.none {
+	border-style: none;
+}
+.hidden {
+	border-style: hidden;
+}
+.mix {
+	border-left: 6px solid blue;
+	background-color: lightgrey;
+}

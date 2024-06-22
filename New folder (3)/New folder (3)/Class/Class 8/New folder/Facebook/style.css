@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+.head {
+	background: #3D5A99;
+	height: 85px;
+}
+.h-left {
+	width: 50%;
+	height: 85px;
+	float: left;
+}
+img {
+	display: block;
+	margin-top: 30px;
+	margin-left: 300px;
+}
+.h-right {
+	width: 50%;
+	height: 85px;
+	overflow: hidden;
+}
+.username {
+	float: left;
+	height: 85px;
+	width: 50%;
+}
+.password {
+	overflow: hidden;
+	height: 85px;
+	width: 50%;
+}

@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	background-color: #80DEEA;
+	font-family: tahoma, arial;
+}
+.a {
+	background-color: #192a56;; 
+}
+.a> ul> li {
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+	position: relative;
+}
+.a:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.a ul {
+	margin: 0;
+}
+.b {
+	overflow: hidden;
+}
+a {
+	text-transform: capitalize;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	font-size: 20px;
+}
+.a ul li {
+	list-style: none;
+}
+.a ul li:hover a {
+	background-color: #b71540;
+}
+.a ul .c a {
+	background-color: #b71540;
+}
+.a ul ul {
+	padding-left: 0;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	min-width: 120px;
+	display: none;
+	z-index: 9999;
+}
+.a ul li:hover> ul {
+	display: block;
+}
+.a ul li ul:hover a {
+	background: #20bf6b;
+}
+.a ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+	
+}
+.a ul ul li {
+	position: relative; 
+}
+
+.a ul ul li:hover> ul {
+	display: block;
+}
+
+.a ul ul li:hover a {
+	background: #3867d6;
+}
+.a ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul li:hover a {
+	background: #786fa6;
+}
+.a ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul li:hover a {
+	background: #e15f41;
+}
+.a ul ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul ul li:hover a {
+	background: #079992;
+}
+.a ul ul ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul ul ul li {
+	position: relative; 
+}
+a ul ul ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul ul ul li:hover a {
+	background: #8c7ae6;
+}
+.a ul ul ul ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul ul ul ul li:hover a {
+	background: #fbc531;
+}
+
+.a ul ul ul ul ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul ul ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul ul ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul ul ul ul ul li:hover a {
+	background: #40739e;
+}
+
+
+
+.a ul ul ul ul ul ul ul ul ul ul {
+	top: 0;
+	left: 100%;
+	display: none;
+	z-index: 9999;
+}
+.a ul ul ul ul ul ul ul ul ul li {
+	position: relative; 
+}
+.a ul ul ul ul ul ul ul ul ul li:hover> ul {
+	display: block;
+}
+.a ul ul ul ul ul ul ul ul ul li:hover a {
+	background: #273c75;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+.sumer {
+	height: 400px;
+	width: 500px;
+	background: #F9A825;
+	float: left;
+	
+}
+
+
+.valo {
+	height: 400px;
+	width: 500px;
+	background: #E91E63;
+	overflow: hidden;
+	
+}
+
+
+
+
+@media (max-width: 1013px) {
+	.sumer {
+		background: #311B92;
+		float: none;
+	}
+}
